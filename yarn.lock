@@ -738,6 +738,14 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@notionhq/client@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@notionhq/client/-/client-2.1.1.tgz#3dfe84054d27fb95144ff26f1fe373adebb0e362"
+  integrity sha512-2B5riO5pk+M4HrKd2eL8bWTdKvfsTSLU8UU19F+uq0NUq5DPvG2iCTNO+l5l+M3DU2BZLK1SZzLxHa+8NaOkIw==
+  dependencies:
+    "@types/node-fetch" "^2.5.10"
+    node-fetch "^2.6.1"
+
 "@nuxtjs/opencollective@0.3.2":
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/opencollective/-/opencollective-0.3.2.tgz#620ce1044f7ac77185e825e1936115bb38e2681c"
@@ -932,6 +940,14 @@
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-3.0.1.tgz#5f8f2bca0a5863cb69bc0b0acd88c96cb1d4ae10"
   integrity sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==
+
+"@types/node-fetch@^2.5.10":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.6.2.tgz#d1a9c5fd049d9415dce61571557104dec3ec81da"
+  integrity sha512-DHqhlq5jeESLy19TYhLakJ07kNumXWjcDdxXsLUMJZ6ue8VZJj4kLPQVE/2mdHh3xZziNF1xppu5lwmS53HR+A==
+  dependencies:
+    "@types/node" "*"
+    form-data "^3.0.0"
 
 "@types/node@*":
   version "18.7.1"
